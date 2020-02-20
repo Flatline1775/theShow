@@ -43,7 +43,7 @@ $result = $conn->query($sql);
 echo "<table id='players'>
 		<tr class='header'>
 			<th>ID <input type='text' id='myInput0' onkeyup='myFunction(0)' placeholder='Search for ID...' title='Type in a name'></th>
-			<th>Name <input type='text' id='myInput1' onkeyup='myFunction(1)' placeholder='Search for names...' title='Type in a name'></th>
+			<th>Name <input type='text' id='myInput1' onkeyup='myFunction(1)' placeholder='Search for Names...' title='Type in a name'></th>
 			<th>Overall <input type='text' id='myInput2' onkeyup='myFunction(2)' placeholder='Search for Overall...' title='Type in a name'></th>
 		</tr>";
 if ($result->num_rows > 0) {
@@ -77,7 +77,7 @@ function myFunction(z) {
       } else {
         tr[i].style.display = "none";
       }
-    }       
+    }
   }
 }
 </script>
